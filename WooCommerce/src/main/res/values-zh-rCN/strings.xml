@@ -3073,7 +3073,7 @@ Language: zh_CN
     <string name="orders">订单</string>
     <string name="my_store">我的商店</string>
     <string name="all">全部</string>
-    <string name="app_name">WooCommerce</string>
+    <string name="app_name">Einetic Commerce</string>
     <string name="settings_footer">Automattic 用心打造。%1$s</string>
     <string name="enter_site_address">输入您要关联的 WooCommerce 商店的地址。</string>
     <string name="orderdetail_note_private">私人</string>

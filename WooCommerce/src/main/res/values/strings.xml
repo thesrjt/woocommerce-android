@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">WooCommerce</string>
+    <string name="app_name">Einetic Commerce</string>
 
     <!-- Android O notification channels, these show in the Android app settings -->
     <string name="notification_channel_general_title">General</string>
@@ -2252,7 +2252,7 @@
     <string name="logviewer_copied_to_clipboard">Log copied to clipboard</string>
     <string name="logviewer_error_copy_to_clipboard">Error copying to clipboard</string>
     <string name="logviewer_share_error">Unable to share log</string>
-    <string name="about_appname">WooCommerce for Android</string>
+    <string name="about_appname">Einetic Commerce for Android</string>
     <string name="about_tos">Terms of Service</string>
     <string name="about_version">Version %s</string>
     <string name="about_copyright" translatable="false">© %1$d WooCommerce, Inc and WooCommerce Ireland Ltd</string>

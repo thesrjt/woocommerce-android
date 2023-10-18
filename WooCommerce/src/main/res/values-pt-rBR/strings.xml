@@ -3082,7 +3082,7 @@ Language: pt_BR
     <string name="logging_in">Fazendo login</string>
     <string name="all">Todos</string>
     <string name="notification_channel_general_title">Geral</string>
-    <string name="app_name">WooCommerce</string>
+    <string name="app_name">Einetic Commerce</string>
     <string-array name="analytics_date_range_selectors">
         <item>\@string/date_timeframe_custom</item>
         <item>\@string/date_timeframe_today</item>

@@ -996,7 +996,7 @@ Language: de
     <string name="install_wc_shipping_proceed_button">Mit Installation fortfahren</string>
     <string name="install_wc_shipping_installation_info">Was du vor der Installation wissen solltest</string>
     <string name="install_wc_shipping_preinstall_title">Erweiterung installieren</string>
-    <string name="install_wc_shipping_extension_name">WooCommerce Shipping</string>
+    <string name="install_wc_shipping_extension_name">Einetic Commerce Shipping</string>
     <string name="product_selector_clear_filters_button_title">Filter löschen</string>
     <string name="product_selector_empty_state">Keine Produkte gefunden</string>
     <string name="product_selector_search_failed">Die Suche nach den Produkten ist fehlgeschlagen</string>
@@ -3082,7 +3082,7 @@ Language: de
     <string name="logging_in">Anmeldung läuft</string>
     <string name="all">Alle</string>
     <string name="notification_channel_general_title">Allgemein</string>
-    <string name="app_name">WooCommerce</string>
+    <string name="app_name">Einetic Commerce</string>
     <string-array name="analytics_date_range_selectors">
         <item>\@string/date_timeframe_custom</item>
         <item>\@string/date_timeframe_today</item>

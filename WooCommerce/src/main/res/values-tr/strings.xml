@@ -3082,7 +3082,7 @@ Language: tr
     <string name="logging_in">Giriş yapılıyor</string>
     <string name="all">Tümü</string>
     <string name="notification_channel_general_title">Genel</string>
-    <string name="app_name">WooCommerce</string>
+    <string name="app_name">Einetic Commerce</string>
     <string-array name="analytics_date_range_selectors">
         <item>\@string/date_timeframe_custom</item>
         <item>\@string/date_timeframe_today</item>

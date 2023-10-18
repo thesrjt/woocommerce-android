@@ -3084,7 +3084,7 @@ Language: ar
     <string name="logging_in">تسجيل الدخول</string>
     <string name="all">الكل</string>
     <string name="notification_channel_general_title">عام</string>
-    <string name="app_name">WooCommerce</string>
+    <string name="app_name">Einetic Commerce</string>
     <string-array name="analytics_date_range_selectors">
         <item>\@string/date_timeframe_custom</item>
         <item>\@string/date_timeframe_today</item>
