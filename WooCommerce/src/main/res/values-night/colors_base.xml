@@ -133,7 +133,7 @@
 
     <color name="reader_update_progress_color">@color/woo_purple_40</color>
     <color name="reader_update_rest_color">@color/woo_purple_20</color>
-    <color name="reader_update_border_color">#7F54B3</color>
+    <color name="reader_update_border_color">@color/woo_purple_60</color>
 
     <!--
     More menu button

@@ -9,7 +9,7 @@
     <string name="notification_channel_order_id" content_override="true" translatable="false">wooandroid_notification_channel_order_id</string>
     <string name="notification_channel_review_title">Product review alerts</string>
     <string name="notification_channel_review_id" content_override="true" translatable="false">wooandroid_notification_channel_review_id</string>
-    <string name="notification_order_ringtone_title" translatable="false">WooCommerce Cha-ching</string>
+    <string name="notification_order_ringtone_title" translatable="false">Einetic Commerce Cha-ching</string>
     <!-- Required by the login library - overwrites the placeholder value with a real channel -->
     <string name="login_notification_channel_id" content_override="true" translatable="false">@string/notification_channel_general_id</string>
     <!--
@@ -194,7 +194,7 @@
     <!--
         Login Library Overrides
     -->
-    <string name="enter_site_address" content_override="true">Enter the address of the WooCommerce store you\'d like to connect.</string>
+    <string name="enter_site_address" content_override="true">Enter the address of the Einetic Commerce store you\'d like to connect.</string>
     <!--
         Login View
     -->
@@ -212,12 +212,12 @@
     <string name="login_prologue_label_analytics">Track sales and high performing products</string>
     <string name="login_prologue_label_orders">Manage and edit orders on the go</string>
     <string name="login_prologue_label_products">Edit and add new products from anywhere</string>
-    <string name="login_prologue_new_to_woo">New to WooCommerce</string>
+    <string name="login_prologue_new_to_woo">New to Einetic Commerce</string>
     <string name="login_prologue_label_analytics_subtitle">We know it\'s essential to your business</string>
     <string name="login_prologue_label_orders_subtitle">You can manage them quickly and easily</string>
     <string name="login_prologue_label_products_subtitle">We enable you to process them effortlessly</string>
 
-    <string name="login_prologue_survey_title">What brings you to WooCommerce?</string>
+    <string name="login_prologue_survey_title">What brings you to Einetic Commerce?</string>
     <string name="login_prologue_survey_button_exploring">Just exploring</string>
     <string name="login_prologue_survey_button_set_up_store">Trying to set up a store</string>
     <string name="login_prologue_survey_button_check_analytics">Check my analytics</string>
@@ -232,10 +232,10 @@
     <string name="login_verifying_site_error">Cannot connect to %s</string>
     <string name="login_verifying_site_jetpack_timeout_error_title">Connection Error</string>
     <string name="login_verifying_site_jetpack_timeout_error_description">We were unable to connect to your site. Please contact support to troubleshoot the problem.</string>
-    <string name="login_update_required_title">Update Store to WooCommerce 3.5</string>
-    <string name="login_update_required_desc">This store uses an older version of WooCommerce. Please upgrade your store to WooCommerce 3.5 or greater to use it with this app.</string>
+    <string name="login_update_required_title">Update Store to Latest Varsion</string>
+    <string name="login_update_required_desc">This store uses an older version. Please upgrade your store to use it with this app.</string>
     <string name="login_avatar_content_description">Your profile photo</string>
-    <string name="login_nostores_content_description">No WooCommerce stores</string>
+    <string name="login_nostores_content_description">No Einetic Commerce stores</string>
     <string name="login_with_a_different_account">Login with a different account</string>
     <string name="login_no_stores_header">Create your first store</string>
     <string name="login_no_stores_subtitle">Quickly get up and selling with a beautiful online store.</string>
@@ -244,15 +244,15 @@
     <string name="login_try_another_account">Log in with another account</string>
     <string name="login_try_another_email">Try Another Address</string>
     <string name="login_try_another_store">Try another store</string>
-    <string name="login_not_woo_store">It looks like %1$s is not a WooCommerce site.</string>
-    <string name="login_install_woo">Install WooCommerce</string>
+    <string name="login_not_woo_store">It looks like %1$s is not a Einetic Commerce site.</string>
+    <string name="login_install_woo">Install Einetic Commerce</string>
     <string name="login_open_installation_page">Open installation page</string>
     <string name="login_not_connected_jetpack">To use this app for %1$s you\'ll need to have the Jetpack plugin setup and connected to this account. \n\nOnce setup, refresh the app</string>
     <string name="login_no_jetpack">To use this app for %1$s you\'ll need to have the Jetpack plugin setup and connected to a WordPress.com account</string>
     <string name="login_not_wordpress_site_v2">We were not able to detect a WordPress site at the address you entered. Please make sure WordPress is installed and that you are running the latest available version.</string>
     <string name="login_refresh_app">Refresh the app</string>
     <string name="login_refresh_app_continue">refresh the app to continue</string>
-    <string name="login_refresh_app_progress">Checking for WooCommerce…</string>
+    <string name="login_refresh_app_progress">Checking for Einetic Commerce…</string>
     <string name="login_refresh_app_progress_jetpack">Attempting to login with Jetpack…</string>
     <string name="login_view_connected_stores">View connected stores</string>
     <string name="login_jetpack_required_text">To use this app for %1$s you\'ll need to have the Jetpack plugin connected on your store.</string>
@@ -281,8 +281,8 @@
     <string name="login_site_picker_enter_site_address">Enter a site address</string>
     <string name="login_site_picker_add_a_store">Add a Store</string>
     <string name="site_discovery_postlogin_failure">A failure occurred, please contact support</string>
-    <string name="login_site_picker_new_to_woo">New to WooCommerce</string>
-    <string name="login_simple_wpcom_site">The site %1$s is currently on a WordPress.com plan that does not support plugin installation. Please upgrade your plan to use WooCommerce.</string>
+    <string name="login_site_picker_new_to_woo">New to Einetic Commerce</string>
+    <string name="login_simple_wpcom_site">The site %1$s is currently on a WordPress.com plan that does not support plugin installation. Please upgrade your plan to use Einetic Commerce.</string>
     <string name="login_jetpack_connection_verification_failed">Cannot verify your Jetpack connection. Please try again.</string>
     <string name="login_jetpack_verify_connection">Verifying Jetpack connection…</string>
     <string name="login_jetpack_connection_url_failed">Fetching connection data failed…</string>
@@ -335,7 +335,7 @@
     <string name="login_jetpack_installation_connection_dismissed_explanation">Try connecting again to access your store.</string>
     <string name="login_jetpack_installation_continue_connection">Continue connection</string>
     <string name="login_jetpack_installation_exit_without_connection">Exit Without Connecting</string>
-    <string name="login_application_passwords_unavailable">It looks like Application Passwords feature is disabled in your site %1$s.\n Please enable it to use the WooCommerce app.</string>
+    <string name="login_application_passwords_unavailable">It looks like Application Passwords feature is disabled in your site %1$s.\n Please enable it to use the Einetic Commerce app.</string>
     <string name="login_jetpack_connection_enter_wpcom_email">Log in with your WordPress.com account to connect Jetpack</string>
     <string name="login_jetpack_installation_enter_wpcom_email">Log in with your WordPress.com account to install Jetpack</string>
     <string name="login_jetpack_connection_enter_wpcom_password">Enter the password of your WordPress.com account to connect to Jetpack</string>
@@ -378,9 +378,9 @@
     <string name="dashboard_action_view_orders">View Orders</string>
 
     <string name="my_store_stats_reverted_title">Upgrade to keep seeing your stats</string>
-    <string name="my_store_stats_reverted_message">We\'ve rolled out improvements to our analytics. Upgrade to WooCommerce 4.0 or above or install WooCommerce Admin plugin to keep seeing your stats after September 1, 2020.</string>
+    <string name="my_store_stats_reverted_message">We\'ve rolled out improvements to our analytics. Upgrade to Einetic Commerce 4.0 or above or install Einetic Commerce Admin plugin to keep seeing your stats after September 1, 2020.</string>
     <string name="my_store_stats_availability_title">We can\'t display your\n store\'s analytics</string>
-    <string name="my_store_stats_availability_description">Make sure you are running the latest version of WooCommerce on your site and that you have WooCommerce Admin activated.\n\nStill need help? %1$s</string>
+    <string name="my_store_stats_availability_description">Make sure you are running the latest version of Einetic Commerce on your site and that you have Einetic Commerce Admin activated.\n\nStill need help? %1$s</string>
     <string name="my_store_stats_availability_contact_us">Contact us</string>
 
     <!--
@@ -493,8 +493,8 @@
     <string name="simple_payments_tax_message">Taxes are automatically calculated based on your store address</string>
     <string name="simple_payments_choose_method">Choose your payment method</string>
     <string name="simple_payments_cash_dlg_title">Mark as paid?</string>
-    <string name="simple_payments_cash_dlg_message">This will create your order and mark it as paid if you received payment outside of WooCommerce</string>
-    <string name="existing_order_cash_dlg_message">This will mark this order as paid if you received payment outside of WooCommerce</string>
+    <string name="simple_payments_cash_dlg_message">This will create your order and mark it as paid if you received payment outside of Einetic Commerce</string>
+    <string name="existing_order_cash_dlg_message">This will mark this order as paid if you received payment outside of Einetic Commerce</string>
     <string name="simple_payments_cash_dlg_button">Mark as paid</string>
     <string name="simple_payments_share_payment_link">Share Payment Link</string>
     <string name="simple_payments_share_payment_dialog_title">Checkout - %s</string>
@@ -776,8 +776,8 @@
     <string name="orderdetail_shipping_label_print">Print shipping label</string>
     <string name="orderdetail_shipping_label_wip_title">Print shipping labels from your device!</string>
     <string name="orderdetail_shipping_label_m2_wip_title">Create shipping labels from your device!!</string>
-    <string name="orderdetail_shipping_label_wip_message">We are working on making it easier for you to print shipping labels directly from you device! For now, if you have created shipping labels for this order in your store admin with WooCommerce Shipping, you can print them in your Order Details here.</string>
-    <string name="orderdetail_shipping_label_m3_wip_message">You can now create shipping labels for all physical orders directly from your device with the free WooCommerce Shipping plugin. Tap on "Create shipping label" to try our beta feature!</string>
+    <string name="orderdetail_shipping_label_wip_message">We are working on making it easier for you to print shipping labels directly from you device! For now, if you have created shipping labels for this order in your store admin with Einetic Commerce Shipping, you can print them in your Order Details here.</string>
+    <string name="orderdetail_shipping_label_m3_wip_message">You can now create shipping labels for all physical orders directly from your device with the free Einetic Commerce Shipping plugin. Tap on "Create shipping label" to try our beta feature!</string>
     <string name="orderdetail_shipping_label_create_shipping_label">Create shipping label</string>
     <string name="orderdetail_shipping_label_notice">Learn more about creating labels with your mobile device</string>
     <string name="orderdetail_custom_fields">Custom fields</string>
@@ -791,7 +791,7 @@
     <string name="order_status_updated">Order status updated</string>
     <string name="order_error_fetch_notes_generic">Error fetching notes</string>
     <string name="order_error_update_general">Error changing order</string>
-    <string name="order_error_update_empty_mail">Unable to update address with empty email. Make sure you are running the latest version of WooCommerce.</string>
+    <string name="order_error_update_empty_mail">Unable to update address with empty email. Make sure you are running the latest version of Einetic Commerce.</string>
     <string name="order_error_fetch_generic">Error fetching order</string>
     <string name="order_shipment_tracking">Tracking</string>
     <string name="order_shipment_tracking_number">Tracking Number</string>
@@ -899,8 +899,8 @@
     <!--
         Create shipping labels
     -->
-    <string name="shipping_label_more_information_title">WooCommerce Shipping</string>
-    <string name="shipping_label_more_information_heading">Save time and money by fulfilling with WooCommerce Shipping</string>
+    <string name="shipping_label_more_information_title">Einetic Commerce Shipping</string>
+    <string name="shipping_label_more_information_heading">Save time and money by fulfilling with Einetic Commerce Shipping</string>
     <string name="shipping_label_more_information_message">Cut the post office line by printing shipping labels at home with your mobile device at discounted rates!</string>
     <string name="shipping_label_more_information_link">Learn more</string>
     <string name="shipping_label_create_title">Create shipping label</string>
@@ -913,8 +913,8 @@
     <string name="shipping_label_create_payment_description">Add a new credit card</string>
     <string name="shipping_label_create_order_summary">Shipping label order summary</string>
     <string name="shipping_label_create_price_subtotal">Subtotal</string>
-    <string name="shipping_label_create_price_woo_discount">WooCommerce Services discount</string>
-    <string name="shipping_label_create_price_woo_discount_content_description">Learn more about WooCommerce Services discount</string>
+    <string name="shipping_label_create_price_woo_discount">Einetic Commerce Services discount</string>
+    <string name="shipping_label_create_price_woo_discount_content_description">Learn more about Einetic Commerce Services discount</string>
     <string name="shipping_label_create_price_total">Order total</string>
     <string name="shipping_label_create_mark_order_complete">Mark this order as complete and notify the customer</string>
     <string name="shipping_label_create_purchase">Purchase shipping label</string>
@@ -978,7 +978,7 @@
     <string name="shipping_label_usps_instructions_link_text">www.usps.com/hazmat.</string>
     <string name="shipping_label_usps_search_tool">Determine your product\'s mailability using the %1$s</string>
     <string name="shipping_label_usps_search_tool_link_text">USPS HAZMAT Search Tool.</string>
-    <string name="shipping_label_hazmat_content_dhl_instructions">WooCommerce Shipping does not currently support HAZMAT shipments through %1$s</string>
+    <string name="shipping_label_hazmat_content_dhl_instructions">Einetic Commerce Shipping does not currently support HAZMAT shipments through %1$s</string>
     <string name="shipping_label_hazmat_content_dhl_instructions_link_text">DHL Express.</string>
     <string name="shipping_label_package_details_hazmat_selection_title">Hazardous material category</string>
     <string name="shipping_label_package_details_hazmat_select_category_action">Select a category</string>
@@ -1068,8 +1068,8 @@
     <string name="shipping_label_shipping_carrier_rates_delivery_estimate_one">%d business day</string>
     <string name="shipping_label_shipping_carrier_rates_delivery_estimate_many">%d business days</string>
     <string name="shipping_label_shipping_carrier_rates_generic_error">There was an error loading shipping options</string>
-    <string name="shipping_label_woo_discount_bottomsheet_title">What is WooCommerce  Services discount?</string>
-    <string name="shipping_label_woo_discount_bottomsheet_message" formatted="false">When purchasing shipping labels with WooCommerce, you get 5% to 40% off compared to post office rates.</string>
+    <string name="shipping_label_woo_discount_bottomsheet_title">What is Einetic Commerce  Services discount?</string>
+    <string name="shipping_label_woo_discount_bottomsheet_message" formatted="false">When purchasing shipping labels with Einetic Commerce, you get 5% to 40% off compared to post office rates.</string>
     <string name="shipping_label_shipping_carrier_flat_fee_banner_message">Customer paid a %1$s of %2$s for shipping</string>
     <string name="shipping_label_shipping_carrier_shipping_method_banner_message">Your customer selected %1$s</string>
     <string name="shipping_label_rate_option_signature_required">Signature required (%s)</string>
@@ -1131,8 +1131,8 @@
     <string name="shipping_label_move_item_dialog_new_package_option">Add to new package</string>
     <string name="shipping_label_move_item_dialog_original_packaging_option">Ship in original packaging</string>
     <string name="shipping_label_install_wc_shipping_banner_title">Need a shipping label?</string>
-    <string name="shipping_label_install_wc_shipping_banner_description">Print labels from your phone, with WooCommerce Shipping.</string>
-    <string name="shipping_label_install_wc_shipping_banner_button">Get WooCommerce Shipping</string>
+    <string name="shipping_label_install_wc_shipping_banner_description">Print labels from your phone, with Einetic Commerce Shipping.</string>
+    <string name="shipping_label_install_wc_shipping_banner_button">Get Einetic Commerce Shipping</string>
     <string name="shipping_label_install_wc_shipping_banner_dismiss_button_description">Dismiss banner to install WC Shipping</string>
 
     <!--
@@ -1448,7 +1448,7 @@
     <string name="card_reader_payment_vm_killed_when_tpp_in_foreground">The system terminated the Woo app while it was running in the background. You may attempt to use it again.</string>
 
     <string name="card_reader_welcome_dialog_header">Collect payments with a card reader</string>
-    <string name="card_reader_welcome_dialog_text">Congrats, you are now able to accept debit and credit card payments with WooCommerce Payments!</string>
+    <string name="card_reader_welcome_dialog_text">Congrats, you are now able to accept debit and credit card payments with Einetic Commerce Payments!</string>
     <!--
             Card Reader Connection
         -->
@@ -1534,27 +1534,27 @@
     <string name="card_reader_onboarding_country_not_supported_contact_support">Need some help? &lt;a href=\'\'&gt;Contact support&lt;/a&gt;</string>
     <string name="card_reader_onboarding_country_not_supported_learn_more">&lt;a href=\'\'&gt;Learn more&lt;/a&gt; about accepting payments with your mobile device and ordering card readers</string>
 
-    <string name="card_reader_onboarding_stripe_unsupported_in_country_header">We don\'t support WooCommerce Stripe extension in %1$s</string>
-    <string name="card_reader_onboarding_wcpay_unsupported_in_country_header">We don\'t support WooCommerce Payments extension in %1$s</string>
+    <string name="card_reader_onboarding_stripe_unsupported_in_country_header">We don\'t support Einetic Commerce Stripe extension in %1$s</string>
+    <string name="card_reader_onboarding_wcpay_unsupported_in_country_header">We don\'t support Einetic Commerce Payments extension in %1$s</string>
     <string name="card_reader_onboarding_stripe_account_in_unsupported_country">We don\'t support Stripe accounts registered in %1$s</string>
 
-    <string name="card_reader_onboarding_wcpay_not_installed_header">Install WooCommerce Payments</string>
-    <string name="card_reader_onboarding_wcpay_not_installed_hint">You\’ll need to install the free WooCommerce Payments extension on your store to accept In-Person Payments.</string>
+    <string name="card_reader_onboarding_wcpay_not_installed_header">Install Einetic Commerce Payments</string>
+    <string name="card_reader_onboarding_wcpay_not_installed_hint">You\’ll need to install the free Einetic Commerce Payments extension on your store to accept In-Person Payments.</string>
     <string name="card_reader_onboarding_wcpay_not_installed_refresh_button">Refresh after installing</string>
     <string name="card_reader_onboarding_wcpay_not_installed_install_button" translatable="false">@string/install</string>
 
-    <string name="card_reader_onboarding_wcpay_not_activated_header">Activate WooCommerce Payments</string>
-    <string name="card_reader_onboarding_wcpay_not_activated_hint">The WooCommerce Payments extension is installed on your store but not activated. Please activate it to accept In-Person Payments.</string>
+    <string name="card_reader_onboarding_wcpay_not_activated_header">Activate Einetic Commerce Payments</string>
+    <string name="card_reader_onboarding_wcpay_not_activated_hint">The Einetic Commerce Payments extension is installed on your store but not activated. Please activate it to accept In-Person Payments.</string>
     <string name="card_reader_onboarding_wcpay_not_activated_refresh_button">Refresh after activating</string>
     <string name="card_reader_onboarding_wcpay_not_activated_activate_button">Activate</string>
 
-    <string name="card_reader_onboarding_wcpay_not_setup_header">Finish setup WooCommerce Payments in your store admin</string>
-    <string name="card_reader_onboarding_wcpay_not_setup_hint">You’re almost there! Please finish setting up WooCommerce Payments to start accepting In-Person Payments.</string>
+    <string name="card_reader_onboarding_wcpay_not_setup_header">Finish setup Einetic Commerce Payments in your store admin</string>
+    <string name="card_reader_onboarding_wcpay_not_setup_hint">You’re almost there! Please finish setting up Einetic Commerce Payments to start accepting In-Person Payments.</string>
     <string name="card_reader_onboarding_wcpay_not_setup_refresh_button" translatable="false">@string/refresh_button</string>
     <string name="card_reader_onboarding_wcpay_not_setup_go_to_wpadmin_button">Finish setup</string>
 
-    <string name="card_reader_onboarding_wcpay_unsupported_version_header">Update WooCommerce Payments</string>
-    <string name="card_reader_onboarding_wcpay_unsupported_version_hint">Outdated version of the WooCommerce Payments extension is installed on your store. Please update it to accept In-Person Payments.</string>
+    <string name="card_reader_onboarding_wcpay_unsupported_version_header">Update Einetic Commerce Payments</string>
+    <string name="card_reader_onboarding_wcpay_unsupported_version_hint">Outdated version of the Einetic Commerce Payments extension is installed on your store. Please update it to accept In-Person Payments.</string>
     <string name="card_reader_onboarding_wcpay_unsupported_version_refresh_button">Refresh after updating</string>
 
     <string name="card_reader_onboarding_stripe_extension_not_setup_header">Finish Stripe setup on your store admin</string>
@@ -1562,7 +1562,7 @@
     <string name="card_reader_onboarding_stripe_extension_not_setup_refresh_button" translatable="false">@string/refresh_button</string>
 
     <string name="card_reader_onboarding_stripe_extension_unsupported_version_header">Update Stripe</string>
-    <string name="card_reader_onboarding_stripe_extension_unsupported_version_hint">Outdated version of the WooCommerce Stripe Gateway extension is installed on your store. Please update it to accept In-Person Payments.</string>
+    <string name="card_reader_onboarding_stripe_extension_unsupported_version_hint">Outdated version of the Einetic Commerce Stripe Gateway extension is installed on your store. Please update it to accept In-Person Payments.</string>
     <string name="card_reader_onboarding_stripe_extension_unsupported_version_refresh_button">Refresh after updating</string>
 
 
@@ -1588,14 +1588,14 @@
     <string name="card_reader_onboarding_both_plugins_activated_header">Conflicting payment plugins detected</string>
     <string name="card_reader_onboarding_both_plugins_activated_hint_admin">In-Person Payments will only work with one of following plugins activated. Please deactivate one of these plugins to continue:</string>
     <string name="card_reader_onboarding_both_plugins_activated_hint_store_owner">In-Person Payments will only work with one of following plugins activated. Please contact a site administrator to deactivate one of these plugins to continue:</string>
-    <string name="card_reader_onboarding_both_plugins_activated_hint_plugin_one">WooCommerce Stripe Gateway</string>
-    <string name="card_reader_onboarding_both_plugins_activated_hint_plugin_two">WooCommerce Payments</string>
+    <string name="card_reader_onboarding_both_plugins_activated_hint_plugin_one">Einetic Commerce Stripe Gateway</string>
+    <string name="card_reader_onboarding_both_plugins_activated_hint_plugin_two">Einetic Commerce Payments</string>
     <string name="card_reader_onboarding_both_plugins_activated_open_store_admin_label">Manage Plugins</string>
     <string name="card_reader_onboarding_both_plugins_activated_refresh_button">Refresh after updating</string>
 
     <string name="card_reader_onboarding_choose_payment_provider">Choose your Payment Provider</string>
     <string name="card_reader_onboarding_choose_plugin_hint">In-Person Payments can be processed through either of these payment providers. Which provider would you like to use?</string>
-    <string name="card_reader_onboarding_choose_wcpayment_button">WooCommerce Payments</string>
+    <string name="card_reader_onboarding_choose_wcpayment_button">Einetic Commerce Payments</string>
     <string name="card_reader_onboarding_choose_stripe_button">Stripe</string>
     <string name="card_reader_onboarding_confirm_payment_method_button">Confirm Payment Method</string>
 
@@ -1968,7 +1968,7 @@
     -->
     <string name="variation_detail_fetch_variation_error">Error fetching variation</string>
     <string name="variation_detail_update_variation_error">Error updating variation</string>
-    <string name="variation_detail_update_variation_image_error">Sorry, image removal on product variations is supported in WooCommerce 4.7 or greater.</string>
+    <string name="variation_detail_update_variation_image_error">Sorry, image removal on product variations is supported in Einetic Commerce 4.7 or greater.</string>
     <string name="variation_detail_update_product_success">Variation updated</string>
     <string name="variation_detail_price_warning">Variations without price won\'t be shown in your store</string>
     <string name="variation_detail_price_warning_title">Some variations do not have prices</string>
@@ -2042,7 +2042,7 @@
     <string name="image_source_title">Select an upload method</string>
     <string name="image_source_device_chooser">Choose from device</string>
     <string name="image_source_device_camera">Take a photo</string>
-    <string name="image_source_wp_media_library">WordPress media library</string>
+    <string name="image_source_wp_media_library">Website media library</string>
     <string name="photo_picker_title">Device Media Library</string>
     <string name="wpmedia_picker_title">WordPress media library</string>
     <string name="product_images_image_limit_warning">Only one photo can be displayed per product variation</string>
@@ -2080,13 +2080,13 @@
     <string name="empty_message_with_filters">We\'re sorry, no products match the selected filters"</string>
 
     <!-- Empty order: try a test order -->
-    <string name="empty_order_test_order_message">Run a test order to ensure your WooCommerce process delivers a seamless customer experience</string>
+    <string name="empty_order_test_order_message">Run a test order to ensure your Einetic Commerce process delivers a seamless customer experience</string>
     <string name="empty_order_test_order_button">Try a test order</string>
 
     <string name="try_test_order_heading">Try a test order</string>
     <string name="try_test_order_step_1">Tap the button below to be redirected to your online store via a web browser.</string>
     <string name="try_test_order_step_2">Select your test product, add to cart, and complete checkout on that web store as a real customer.</string>
-    <string name="try_test_order_step_3">Complete the payment and await a push notification about the order on your WooCommerce app.</string>
+    <string name="try_test_order_step_3">Complete the payment and await a push notification about the order on your Einetic Commerce app.</string>
     <string name="try_test_order_step_4">Use the app to process the refund for the test order</string>
     <string name="try_test_order_button">Start test order</string>
     <!--
@@ -2121,7 +2121,7 @@
     <string name="settings_enable_product_teaser_title">Product editing</string>
     <string name="settings_enable_product_teaser_message">Test out the new product editing functionality as we get ready to launch</string>
     <string name="settings_send_stats_detail">Share information with our analytics tool about your use of services while logged in to your WordPress account</string>
-    <string name="settings_privacy_detail">This information helps us improve our products, make marketing to you more relevant, personalize your WooCommerce experience, and more as detailed in our privacy policy</string>
+    <string name="settings_privacy_detail">This information helps us improve our products, make marketing to you more relevant, personalize your Einetic Commerce experience, and more as detailed in our privacy policy</string>
     <string name="settings_privacy_policy">Read privacy policy</string>
     <string name="settings_privacy_policy_ca">Privacy Notice for California Users</string>
     <string name="settings_privacy_statement">We value your privacy. Your personal data is used to optimize our mobile apps, improve security, conduct analytics, and enhance your user experience.</string>
@@ -2132,7 +2132,7 @@
     <string name="settings_tracking_analytics_error_update">There was an error updating your privacy settings</string>
     <string name="settings_more_privacy_options_header">More privacy options</string>
     <string name="settings_web_options">Web Options</string>
-    <string name="settings_web_options_description">More privacy options available for woocommerce.com users. Check here to learn more.</string>
+    <string name="settings_web_options_description">More privacy options available for Einetic Commerce.com users. Check here to learn more.</string>
     <string name="settings_usage_tracking">Usage Tracking</string>
     <string name="settings_usage_tracking_description">Learn more about the data we collect about your store and your options to control this data sharing.</string>
     <string name="settings_privacy_header">Privacy</string>
@@ -2150,7 +2150,7 @@
     <string name="privacy_banner_error_save">There was an error saving your privacy choices.</string>
     <string name="settings_tracking">We use other tracking tools, including some from third parties. Read about these and how to control them.</string>
     <string name="settings_policies_privacy_policy">Privacy Policy</string>
-    <string name="settings_policies_privacy_policy_description">Your information helps us to improve our products, marketing, and personalize your experience on WooCommerce.</string>
+    <string name="settings_policies_privacy_policy_description">Your information helps us to improve our products, marketing, and personalize your experience on Einetic Commerce.</string>
     <string name="settings_policies_cookie_policy">Cookie Policy</string>
     <string name="settings_policies_cookie_policy_description">Our cookie policy explains how we and others use cookies and how you can manage them.</string>
     <string name="settings_footer">Made with love by Automattic. %1$s</string>
@@ -2176,7 +2176,7 @@
     <string name="settings_image_optimization_message">Resize and compress images for faster uploading</string>
     <string name="settings_about">About the app</string>
     <string name="settings_licenses">Open source licenses</string>
-    <string name="settings_whats_new">What\'s New in WooCommerce</string>
+    <string name="settings_whats_new">What\'s New in Einetic Commerce</string>
     <string name="settings_whats_new_icon_description">New feature icon image</string>
     <string name="settings_privacy_policy_header">Privacy Policy</string>
     <string name="settings_cookie_policy_header">Cookie Policy</string>
@@ -2190,9 +2190,9 @@
     <string name="settings_app_theme_option_system">System default</string>
     <string name="settings_app_theme_option_battery_saver">Set by Battery Saver</string>
     <string name="settings_app_theme_option_default" translatable="false">@string/settings_app_theme_option_battery_saver</string>
-    <string name="settings_about_title">About WooCommerce</string>
-    <string name="settings_about_recommend_app_subject">WooCommerce</string>
-    <string name="settings_about_recommend_app_message">Hey! Here is a link to download the WooCommerce app. I\'m really enjoying it and thought you might too. %1$s</string>
+    <string name="settings_about_title">About Einetic Commerce</string>
+    <string name="settings_about_recommend_app_subject">Einetic Commerce</string>
+    <string name="settings_about_recommend_app_message">Hey! Here is a link to download the Einetic Commerce app. I\'m really enjoying it and thought you might too. %1$s</string>
     <string name="dev_options">Developer Options</string>
     <string name="settings_account">Account Settings</string>
 
@@ -2220,7 +2220,7 @@
         Help and support
     -->
     <string name="support_help">Help &amp; support</string>
-    <string name="support_email_subject">WooCommerce Android %s support</string>
+    <string name="support_email_subject">Einetic Commerce Android %s support</string>
     <string name="invalid_email_message">Your email address isn\'t valid</string>
     <string name="a8c_email_message">Please use a non-Automattic email to submit a support ticket</string>
     <string name="support_identity_input_dialog_enter_email_and_name">To continue please enter your email address and name</string>
@@ -2235,18 +2235,18 @@
     <string name="support_application_log">Application log</string>
     <string name="support_application_log_detail">Advanced tool to review the app status</string>
     <string name="support_system_status_report">System status report</string>
-    <string name="support_system_status_report_clipboard_label">WooCommerce SSR</string>
+    <string name="support_system_status_report_clipboard_label">Einetic Commerce SSR</string>
     <string name="support_system_status_report_detail">Various system information about your site</string>
     <string name="support_system_status_report_copy_label">Copy system status report to clipboard</string>
     <string name="support_system_status_report_share_label">Share system status report</string>
     <string name="support_system_status_report_copied_to_clipboard">System status report copied to clipboard</string>
     <string name="support_system_status_report_error_copy_to_clipboard">Error copying SSR to clipboard</string>
     <string name="support_system_status_report_share_error">Unable to share System Status Report</string>
-    <string name="support_system_status_report_fetch_error">Error fetching SSR. Please check WooCommerce -&gt; Status in wp-admin.</string>
+    <string name="support_system_status_report_fetch_error">Error fetching SSR. Please check Einetic Commerce -&gt; Status in wp-admin.</string>
     <string name="help">Help</string>
     <string name="support_contact_email">Contact email</string>
     <string name="support_contact_email_not_set">Not set</string>
-    <string name="support_push_notification_title">WooCommerce</string>
+    <string name="support_push_notification_title">Einetic Commerce</string>
     <string name="support_push_notification_message">New message from \'Help &amp; Support\'</string>
     <string name="logviewer_activity_title">Application log</string>
     <string name="logviewer_copied_to_clipboard">Log copied to clipboard</string>
@@ -2255,7 +2255,7 @@
     <string name="about_appname">Einetic Commerce for Android</string>
     <string name="about_tos">Terms of Service</string>
     <string name="about_version">Version %s</string>
-    <string name="about_copyright" translatable="false">© %1$d WooCommerce, Inc and WooCommerce Ireland Ltd</string>
+    <string name="about_copyright" translatable="false">© %1$d Einetic Commerce, Inc and Einetic Commerce Ireland Ltd</string>
     <!--
         Login Library Imported Strings
     -->
@@ -2475,7 +2475,7 @@
     <string name="product_detail_publish_product_draft_success">Product draft saved</string>
 
     <!-- In-App Feedback -->
-    <string name="feedback_request_title">Enjoying the WooCommerce app?</string>
+    <string name="feedback_request_title">Enjoying the Einetic Commerce app?</string>
     <string name="feedback_request_make_better">Could be better</string>
     <string name="feedback_request_like_it">I like it</string>
     <string name="feedback_survey_request_title">How can we improve?</string>
@@ -2519,12 +2519,12 @@
     <string name="jetpack_benefits_modal_analytics_title">Analytics</string>
     <string name="jetpack_benefits_modal_analytics_subtitle">New analytics views, let you see visitors, reports and more.</string>
     <string name="jetpack_benefits_modal_user_profiles_title">User Profiles</string>
-    <string name="jetpack_benefits_modal_user_profiles_subtitle">Allow multiple users to access WooCommerce Mobile.</string>
+    <string name="jetpack_benefits_modal_user_profiles_subtitle">Allow multiple users to access Einetic Commerce Mobile.</string>
     <string name="jetpack_benefits_modal_install_jetpack">Install Jetpack</string>
     <string name="jetpack_benefits_modal_dismiss">Not Now</string>
     <string name="jetpack_benefits_fetching_status">Fetching Jetpack Status</string>
     <string name="jetpack_benefits_modal_multiple_stores_title">Multiple stores</string>
-    <string name="jetpack_benefits_modal_multiple_stores_subtitle">Get access to all of your WooCommerce stores.</string>
+    <string name="jetpack_benefits_modal_multiple_stores_subtitle">Get access to all of your Einetic Commerce stores.</string>
     <string name="jetpack_benefits_modal_login">Log In to Continue</string>
 
     <string name="jetpack_install_start_title">Install Jetpack</string>
@@ -2708,7 +2708,7 @@
     <string name="product_selector_products_heading">Products</string>
 
     <!-- WC Shipping installation flow -->
-    <string name="install_wc_shipping_flow_onboarding_screen_title">Fulfill your orders with WooCommerce Shipping</string>
+    <string name="install_wc_shipping_flow_onboarding_screen_title">Fulfill your orders with Einetic Commerce Shipping</string>
     <string name="install_wc_shipping_flow_onboarding_screen_subtitle">Save time and money</string>
     <string name="install_wc_shipping_flow_onboarding_screen_postage_bullet_title">Buy postage when you need it</string>
     <string name="install_wc_shipping_flow_onboarding_screen_postage_bullet_desc">No need to wonder where that stampbook went.</string>
@@ -2716,10 +2716,10 @@
     <string name="install_wc_shipping_flow_onboarding_screen_print_bullet_desc">Pick up an order, then just pay, print, package, and post.</string>
     <string name="install_wc_shipping_flow_onboarding_screen_discounts_bullet_title">Discounted rates</string>
     <string name="install_wc_shipping_flow_onboarding_screen_discounts_bullet_desc">Access discounted shipping rates. Currently available with DHL and USPS, with more to come soon!</string>
-    <string name="install_wc_shipping_flow_onboarding_screen_link">What is WooCommerce Shipping?</string>
+    <string name="install_wc_shipping_flow_onboarding_screen_link">What is Einetic Commerce Shipping?</string>
     <string name="install_wc_shipping_flow_onboarding_screen_add_extension_button">Add Extension To Store</string>
     <string name="install_wc_shipping_flow_onboarding_screen_not_now_button">Not Now</string>
-    <string name="install_wc_shipping_extension_name">WooCommerce Shipping</string>
+    <string name="install_wc_shipping_extension_name">Einetic Commerce Shipping</string>
 
     <!-- Login local notifications -->
     <string name="login_help_notification_default_title">Problems with logging in?</string>
@@ -3081,7 +3081,7 @@
     <string name="login_get_link_by_email">Get a login link by email</string>
     <string name="signup_magic_link_message">We’ve emailed you a signup link to create your new WordPress.com account. Check your email on this device, and tap the link in the email you receive from WordPress.com.</string>
     <string name="signup_confirmation_magic_link_message">We’ll email you a signup link to create your new WordPress.com account.</string>
-    <string name="enter_email_wordpress_com" content_override="true">Log in with your WordPress.com account email address to manage your WooCommerce stores.</string>
+    <string name="enter_email_wordpress_com" content_override="true">Log in with your WordPress.com account email address to manage your Einetic Commerce stores.</string>
     <string name="login_site_address_help_title">What\'s my site address?</string>
     <string name="login_site_address_help_content">Your site address appears in the bar at the top of the screen when you visit your site in Chrome.</string>
     <string name="login_find_your_site_adress">Find your site address</string>
@@ -3141,7 +3141,7 @@
     <string name="about_automattic_pocketcasts">Pocket Casts</string>
     <string name="about_automattic_simplenote">Simplenote</string>
     <string name="about_automattic_tumblr">Tumblr</string>
-    <string name="about_automattic_woocommerce">WooCommerce</string>
+    <string name="about_automattic_WooCommerce">Einetic Commerce</string>
     <string name="about_automattic_wordpress">WordPress</string>
     <string name="about_automattic_version_label">Version %1$s</string>
     <string name="about_automattic_logo_description">Automattic logo</string>
@@ -3152,10 +3152,10 @@
     <string name="install_wc_shipping_installation_info">Things to know before installing</string>
     <string name="install_wc_shipping_proceed_button">Proceed With Installation</string>
     <string name="lines_incomplete">%1$s are incomplete</string>
-    <string name="lines_incomplete_explanation">To edit all %1$s browse the order in your WooCommerce store admin</string>
+    <string name="lines_incomplete_explanation">To edit all %1$s browse the order in your Einetic Commerce store admin</string>
     <string name="lines_all_details">the details</string>
     <string name="tests_notification_new_order_title">You have a new order! 🎉</string>
-    <string name="tests_notification_new_order_message">New order for $50 on Your WooCommerce Store</string>
+    <string name="tests_notification_new_order_message">New order for $50 on Your Einetic Commerce Store</string>
     <string name="or_use_password">Use password to sign in</string>
     <string name="login_magic_links_sent_label_short">Check your email on this device!</string>
     <string name="login_magic_links_email_sent">We just sent a magic link to</string>
@@ -3166,11 +3166,11 @@
     <!--
     Stats widgets
     -->
-    <string name="stats_widget_log_in_message">Please log in to the WooCommerce app</string>
+    <string name="stats_widget_log_in_message">Please log in to the Einetic Commerce app</string>
     <string name="stats_widget_offline_error">Your network is unavailable.\nCheck your data or wifi connection.</string>
-    <string name="stats_widget_availability_message">Store analytics not available! Please upgrade to the latest version of WooCommerce to view your store analytics.</string>
+    <string name="stats_widget_availability_message">Store analytics not available! Please upgrade to the latest version of Einetic Commerce to view your store analytics.</string>
     <string name="stats_today_widget_configure_title">Today\'s store stats</string>
-    <string name="stats_today_widget_description">WooCommerce Stats Today</string>
+    <string name="stats_today_widget_description">Einetic Commerce Stats Today</string>
     <string name="stats_widget_error_no_data">Couldn\'t load data</string>
     <string name="stats_widget_last_updated_message">As of %1$s</string>
 
@@ -3278,11 +3278,11 @@
     <string name="store_creation_country_picker_countries_header">Countries</string>
     <string name="store_creation_country_list_picker_toolbar_title">Select a country</string>
 
-    <string name="not_a_valid_qr_code">Scanned Qr code is not a WooCommerce code</string>
+    <string name="not_a_valid_qr_code">Scanned Qr code is not a Einetic Commerce code</string>
     <string name="login_application_passwords_help">What are Application Passwords?</string>
 
     <!-- Store profiler industries. To be removed when API is available to fetch these items localized
-     TODO Github issue https://github.com/woocommerce/woocommerce-android/issues/8218  -->
+     TODO Github issue https://github.com/Einetic Commerce/Einetic Commerce-android/issues/8218  -->
     <string name="store_creation_profiler_industry_clothing_accessories">Clothing and accessories</string>
     <string name="store_creation_profiler_industry_health_beauty">Health and beauty</string>
     <string name="store_creation_profiler_industry_food_drink">Food and drink</string>
@@ -3359,7 +3359,7 @@
     <string name="store_onboarding_payments_pre_setup_title_one">Set up</string>
     <string name="store_onboarding_payments_pre_setup_title_wcpay">WooPayments</string>
     <string name="store_onboarding_payments_pre_setup_title_generic">Payment Methods</string>
-    <string name="store_onboarding_wcpay_setup_description">By using WooCommerce Payments you agree to be bound by our &lt;a href=\'termsOfService\'&gt;&lt;u&gt;Terms of Service&lt;/u&gt;&lt;/a&gt; and acknowledge that you have read our &lt;a href=\'privacyPolicy\'&gt;&lt;u&gt;Privacy Policy&lt;/u&gt;&lt;/a&gt;.</string>
+    <string name="store_onboarding_wcpay_setup_description">By using Einetic Commerce Payments you agree to be bound by our &lt;a href=\'termsOfService\'&gt;&lt;u&gt;Terms of Service&lt;/u&gt;&lt;/a&gt; and acknowledge that you have read our &lt;a href=\'privacyPolicy\'&gt;&lt;u&gt;Privacy Policy&lt;/u&gt;&lt;/a&gt;.</string>
     <string name="store_onboarding_payments_setup_description">Discover other payment providers and \nchoose a payment provider.</string>
 
     <!--
@@ -3375,8 +3375,8 @@
     <string name="support_request_message_hint">Write something</string>
     <string name="support_request_help_app">Mobile App</string>
     <string name="support_request_help_ipp">Card Reader / In-Person Payments</string>
-    <string name="support_request_help_payments">WooCommerce Payments</string>
-    <string name="support_request_help_plugins">WooCommerce Plugin</string>
+    <string name="support_request_help_payments">Einetic Commerce Payments</string>
+    <string name="support_request_help_plugins">Einetic Commerce Plugin</string>
     <string name="support_request_help_other">Other Extension / Plugin</string>
     <string name="support_request_loading_title">Sending your request</string>
     <string name="support_request_loading_message">Please wait…</string>
@@ -3400,7 +3400,7 @@
     Free trial Summary
     -->
     <string name="free_trial_summary_title">Launch in days,\ngrow for years</string>
-    <string name="free_trial_summary_advertise">We offer everything you need to build\nand grow an online store, powered by\nWooCommerce and hosted on\nWordPress.com.</string>
+    <string name="free_trial_summary_advertise">We offer everything you need to build\nand grow an online store, powered by\nEinetic Commerce and hosted on\nWordPress.com.</string>
     <string name="free_trial_summary_try_it">Try it free for 14 days.</string>
     <string name="free_trial_summary_start_selling_quickly">Start selling quickly</string>
     <string name="free_trial_summary_grow_your_business">Grow your business</string>
@@ -3513,7 +3513,7 @@
     More Menu
     -->
     <string name="more_menu">Menu</string>
-    <string name="more_menu_button_woo_admin">WooCommerce Admin</string>
+    <string name="more_menu_button_woo_admin">Einetic Commerce Admin</string>
     <string name="more_menu_avatar">User profile picture</string>
     <string name="more_menu_button_analytics">Analytics</string>
 
@@ -3582,7 +3582,7 @@
     <string name="local_notification_survey_after_24_hours_title">💡Help Us Understand Your Subscription Decision</string>
     <string name="local_notification_survey_after_24_hours_description">We’re interested in your decision-making journey. Could you please tell us about your current status?</string>
     <string name="free_trial_survey_screen_title">Help Us Understand Your Subscription Decision</string>
-    <string name="local_notification_still_exploring_title">🧭 Still Exploring WooCommerce?</string>
+    <string name="local_notification_still_exploring_title">🧭 Still Exploring Einetic Commerce?</string>
     <string name="local_notification_still_exploring_description">No rush, take your time! If you have any questions or need assistance, we\'re always here to help. Happy exploring!</string>
     <!--
     First product published congratulatory feature

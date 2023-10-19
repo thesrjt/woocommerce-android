@@ -63,40 +63,16 @@
                             style="@style/Woo.Divider"
                             android:layout_marginStart="@dimen/minor_50" />
 
-                        <RadioButton
-                            android:id="@+id/ipp_option"
-                            style="@style/Woo.RadioButton"
-                            android:layout_width="match_parent"
-                            android:layout_height="@dimen/major_325"
-                            android:background="@android:color/transparent"
-                            android:text="@string/support_request_help_ipp"
-                            android:textAppearance="?attr/textAppearanceListItem" />
+                        <View
+                            style="@style/Woo.Divider"
+                            android:layout_marginStart="@dimen/minor_50" />
+
 
                         <View
                             style="@style/Woo.Divider"
                             android:layout_marginStart="@dimen/minor_50" />
 
-                        <RadioButton
-                            android:id="@+id/payments_option"
-                            style="@style/Woo.RadioButton"
-                            android:layout_width="match_parent"
-                            android:layout_height="@dimen/major_325"
-                            android:background="@android:color/transparent"
-                            android:text="@string/support_request_help_payments"
-                            android:textAppearance="?attr/textAppearanceListItem" />
 
-                        <View
-                            style="@style/Woo.Divider"
-                            android:layout_marginStart="@dimen/minor_50" />
-
-                        <RadioButton
-                            android:id="@+id/woo_plugin_option"
-                            style="@style/Woo.RadioButton"
-                            android:layout_width="match_parent"
-                            android:layout_height="@dimen/major_325"
-                            android:background="@android:color/transparent"
-                            android:text="@string/support_request_help_plugins"
-                            android:textAppearance="?attr/textAppearanceListItem" />
 
                         <View
                             style="@style/Woo.Divider"

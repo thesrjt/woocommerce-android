@@ -92,10 +92,10 @@
             android:strokeWidth="0.73"
             android:strokeColor="#004F82" />
         <path
-            android:fillColor="#674399"
+            android:fillColor="@color/woo_purple_80"
             android:pathData="M59.586,70.787C59.586,70.787 60.555,84.598 61.025,98.787C61.413,110.683 59.992,123.223 60.103,128.251H50.409C50.538,99.201 44.754,87.167 45.022,71.164" />
         <path
-            android:fillColor="#674399"
+            android:fillColor="@color/woo_purple_80"
             android:pathData="M44.275,51.101C43.694,57.799 43.935,64.543 44.994,71.183L59.688,70.787L59.466,61.81L56.063,59.968L60.214,51.939L57.446,49.067L53.268,44.757C52.255,44.524 51.204,44.507 50.183,44.707C49.163,44.907 48.197,45.32 47.348,45.919C46.499,46.518 45.786,47.289 45.256,48.182C44.727,49.075 44.392,50.07 44.275,51.101Z" />
         <path
             android:fillColor="#C498D9"
@@ -118,7 +118,7 @@
             android:strokeLineCap="round"
             android:strokeLineJoin="round" />
         <path
-            android:fillColor="#674399"
+            android:fillColor="@color/woo_purple_80"
             android:pathData="M50.409,127.312C53.12,127.404 61.329,127.928 62.556,128.361C63.783,128.794 63.866,129.494 62.381,129.844C60.896,130.193 50.39,129.844 50.39,129.844L50.409,127.312Z" />
         <path
             android:fillColor="#00000000"
@@ -233,7 +233,7 @@
             android:fillColor="#DCDCDE"
             android:pathData="M67.095,117.635V29.188H193.997V117.635H99H67.095Z" />
         <path
-            android:fillColor="#674399"
+            android:fillColor="@color/woo_purple_80"
             android:fillType="evenOdd"
             android:pathData="M94.073,66H120.927C122.625,66 124,67.376 124,69.074V79.318C124,81.016 122.625,82.392 120.927,82.392H111.295L112.614,85.632L106.796,82.392H94.073C92.376,82.392 91,81.016 91,79.318V69.074C91,67.376 92.376,66 94.073,66Z" />
         <path
@@ -305,7 +305,7 @@
             android:strokeLineCap="round"
             android:strokeLineJoin="round" />
         <path
-            android:fillColor="#674399"
+            android:fillColor="@color/woo_purple_80"
             android:pathData="M152.757,77.223H182.928V109.32H146.328V83.641C146.335,81.941 147.015,80.313 148.219,79.111C149.423,77.909 151.054,77.23 152.757,77.223Z" />
         <path
             android:fillColor="#ffffff"

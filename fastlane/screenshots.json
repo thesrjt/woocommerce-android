@@ -35,7 +35,7 @@
     {
       "device": "Pixel 3",
       "filename": "Pixel 3-01.png",
-      "background": "#674399",
+      "background": "@color/woo_purple_80",
       "screenshot": "images/phoneScreenshots/1-order-dashboard-dark.png",
       "text": "playstoreres/metadata/{locale}/promo_screenshot_1.txt"
     },
@@ -51,7 +51,7 @@
     {
       "device": "Pixel 3",
       "filename": "Pixel 3-03.png",
-      "background": "#674399",
+      "background": "@color/woo_purple_80",
       "screenshot": "images/phoneScreenshots/3-in-person-payments-dark.png",
       "text": "playstoreres/metadata/{locale}/promo_screenshot_3.txt"
     },
@@ -67,7 +67,7 @@
     {
       "device": "Pixel 3",
       "filename": "Pixel 3-05.png",
-      "background": "#674399",
+      "background": "@color/woo_purple_80",
       "screenshot": "images/phoneScreenshots/5-push-notifications-dark.png",
       "text": "playstoreres/metadata/{locale}/promo_screenshot_5.txt"
     }
