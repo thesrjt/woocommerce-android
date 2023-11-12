@@ -37,12 +37,12 @@
         android:pathData="M96.47,0L120.64,0A2.42,2.42 0,0 1,123.06 2.42L123.06,26.34A2.42,2.42 0,0 1,120.64 28.76L96.47,28.76A2.42,2.42 0,0 1,94.06 26.34L94.06,2.42A2.42,2.42 0,0 1,96.47 0z"/>
     <path
         android:pathData="M110.97,5.99L113.26,12.11L119.43,14.38L113.26,16.64L110.97,22.76L108.69,16.64L102.51,14.38L108.69,12.11L110.97,5.99Z"
-        android:fillColor="#674399"/>
+        android:fillColor="@color/woo_purple_80"/>
     <path
         android:pathData="M102.51,4.19L103.49,6.82L106.14,7.79L103.49,8.76L102.51,11.38L101.54,8.76L98.89,7.79L101.54,6.82L102.51,4.19Z"
-        android:fillColor="#674399"/>
+        android:fillColor="@color/woo_purple_80"/>
     <path
         android:pathData="M102.51,17.37L103.49,20L106.14,20.97L103.49,21.94L102.51,24.56L101.54,21.94L98.89,20.97L101.54,20L102.51,17.37Z"
-        android:fillColor="#674399"/>
+        android:fillColor="@color/woo_purple_80"/>
   </group>
 </vector>

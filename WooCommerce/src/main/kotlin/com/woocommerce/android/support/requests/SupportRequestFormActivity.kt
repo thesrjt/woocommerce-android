@@ -63,9 +63,9 @@ class SupportRequestFormActivity : AppCompatActivity() {
         binding.helpOptionsGroup.setOnCheckedChangeListener { _, selectionID ->
             when (selectionID) {
                 binding.mobileAppOption.id -> viewModel.onHelpOptionSelected(TicketType.MobileApp)
-                binding.ippOption.id -> viewModel.onHelpOptionSelected(TicketType.InPersonPayments)
-                binding.paymentsOption.id -> viewModel.onHelpOptionSelected(TicketType.Payments)
-                binding.wooPluginOption.id -> viewModel.onHelpOptionSelected(TicketType.WooPlugin)
+                //binding.ippOption.id -> viewModel.onHelpOptionSelected(TicketType.InPersonPayments)
+                //binding.paymentsOption.id -> viewModel.onHelpOptionSelected(TicketType.Payments)
+                //binding.wooPluginOption.id -> viewModel.onHelpOptionSelected(TicketType.WooPlugin)
                 binding.otherOption.id -> viewModel.onHelpOptionSelected(TicketType.OtherPlugins)
             }
         }
