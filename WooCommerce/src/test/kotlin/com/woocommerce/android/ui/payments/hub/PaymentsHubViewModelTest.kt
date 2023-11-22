@@ -40,7 +40,6 @@ import com.woocommerce.android.ui.payments.hub.PaymentsHubViewModel.PaymentsHubE
 import com.woocommerce.android.ui.payments.hub.PaymentsHubViewModel.PaymentsHubEvents.ShowToastString
 import com.woocommerce.android.ui.payments.hub.PaymentsHubViewState.ListItem.NonToggleableListItem
 import com.woocommerce.android.ui.payments.hub.PaymentsHubViewState.ListItem.ToggleableListItem
-import com.woocommerce.android.ui.payments.taptopay.TTPCaUkFeatureFlagEnabled
 import com.woocommerce.android.ui.payments.taptopay.TapToPayAvailabilityStatus
 import com.woocommerce.android.ui.payments.taptopay.TapToPayAvailabilityStatus.Result.Available
 import com.woocommerce.android.ui.payments.taptopay.TapToPayAvailabilityStatus.Result.NotAvailable.CountryNotSupported
@@ -96,7 +95,6 @@ class PaymentsHubViewModelTest : BaseUnitTest() {
     private val tapToPayAvailabilityStatus: TapToPayAvailabilityStatus = mock {
         on { invoke() }.thenReturn(Available)
     }
-    private val tapToPayCaUkFeatureFlagEnabled: TTPCaUkFeatureFlagEnabled = mock()
     private val appPrefs: AppPrefs = mock()
     private val feedbackRepository: FeedbackRepository = mock {
         on { getFeatureFeedbackSetting(any()) }.thenReturn(
@@ -826,8 +824,17 @@ class PaymentsHubViewModelTest : BaseUnitTest() {
         assertThat((viewModel.viewStateData.getOrAwaitValue()).rows)
             .anyMatch {
                 it is PaymentsHubViewState.ListItem.HeaderItem &&
-                    it.index == 2 &&
+                    it.index == 3 &&
                     it.label == UiStringRes(R.string.card_reader_settings_header)
+            }
+    }
+
+    @Test
+    fun `when screen shown, then DepositSummaryListItem shown`() {
+        assertThat((viewModel.viewStateData.getOrAwaitValue()).rows)
+            .anyMatch {
+                it is PaymentsHubViewState.ListItem.DepositSummaryListItem &&
+                    it.index == 0
             }
     }
 
@@ -1383,7 +1390,7 @@ class PaymentsHubViewModelTest : BaseUnitTest() {
             // THEN
             assertThat((viewModel.viewStateData.getOrAwaitValue()).rows).anyMatch {
                 it is PaymentsHubViewState.ListItem.HeaderItem &&
-                    it.index == 5 &&
+                    it.index == 6 &&
                     it.label == UiStringRes(R.string.card_reader_tap_to_pay_header)
             }
             assertThat((viewModel.viewStateData.getOrAwaitValue()).rows).anyMatch {
@@ -1391,7 +1398,7 @@ class PaymentsHubViewModelTest : BaseUnitTest() {
                     it.icon == R.drawable.ic_baseline_contactless &&
                     it.label == UiStringRes(R.string.card_reader_test_tap_to_pay) &&
                     it.description == UiStringRes(R.string.card_reader_tap_to_pay_description) &&
-                    it.index == 6 &&
+                    it.index == 7 &&
                     it.iconBadge == R.drawable.ic_badge_new
             }
         }
@@ -1406,7 +1413,6 @@ class PaymentsHubViewModelTest : BaseUnitTest() {
                 mock<CardReaderOnboardingState.OnboardingCompleted>()
             )
             whenever(appPrefs.isTTPWasUsedAtLeastOnce()).thenReturn(true)
-            whenever(tapToPayCaUkFeatureFlagEnabled.invoke()).thenReturn(true)
 
             // WHEN
             initViewModel()
@@ -1417,7 +1423,7 @@ class PaymentsHubViewModelTest : BaseUnitTest() {
                     it.icon == R.drawable.ic_tintable_info_outline_24dp &&
                     it.label == UiStringRes(R.string.card_reader_about_tap_to_pay) &&
                     it.description == null &&
-                    it.index == 7 &&
+                    it.index == 8 &&
                     it.iconBadge == null
             }
         }
@@ -1444,7 +1450,7 @@ class PaymentsHubViewModelTest : BaseUnitTest() {
                     it.icon == R.drawable.ic_feedback_banner_logo &&
                     it.label == UiStringRes(R.string.card_reader_tap_to_pay_share_feedback) &&
                     it.description == null &&
-                    it.index == 8 &&
+                    it.index == 9 &&
                     it.iconBadge == null
             }
         }
@@ -1506,7 +1512,7 @@ class PaymentsHubViewModelTest : BaseUnitTest() {
                     it.icon == R.drawable.ic_feedback_banner_logo &&
                     it.label == UiStringRes(R.string.card_reader_tap_to_pay_share_feedback) &&
                     it.description == null &&
-                    it.index == 8
+                    it.index == 9
             }
         }
 
@@ -1591,14 +1597,13 @@ class PaymentsHubViewModelTest : BaseUnitTest() {
                 )
             ).thenReturn(true)
             whenever(appPrefs.isTTPWasUsedAtLeastOnce()).thenReturn(true)
-            whenever(tapToPayCaUkFeatureFlagEnabled.invoke()).thenReturn(true)
 
             // WHEN
             initViewModel()
 
             // THEN
             val rows = (viewModel.viewStateData.getOrAwaitValue()).rows
-            assertThat(rows.map { it.index }).containsExactly(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13)
+            assertThat(rows.map { it.index }).containsExactly(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
         }
 
     @Test
@@ -1736,7 +1741,7 @@ class PaymentsHubViewModelTest : BaseUnitTest() {
             )
         )
         assertThat(learnMoreListItems[0].icon).isEqualTo(R.drawable.ic_info_outline_20dp)
-        assertThat(learnMoreListItems[0].index).isEqualTo(13)
+        assertThat(learnMoreListItems[0].index).isEqualTo(14)
     }
 
     @Test
@@ -1953,7 +1958,6 @@ class PaymentsHubViewModelTest : BaseUnitTest() {
         val supportedCountry: CardReaderConfig = CardReaderConfigForCanada
         whenever(cardReaderCountryConfigProvider.provideCountryConfigFor("CA")).thenReturn(supportedCountry)
         whenever(wooStore.getStoreCountryCode(selectedSite.get())).thenReturn("CA")
-        whenever(tapToPayCaUkFeatureFlagEnabled.invoke()).thenReturn(true)
 
         initViewModel()
         (viewModel.viewStateData.getOrAwaitValue()).rows.find {
@@ -1968,7 +1972,6 @@ class PaymentsHubViewModelTest : BaseUnitTest() {
         val supportedCountry: CardReaderConfigForSupportedCountry = CardReaderConfigForCanada
         whenever(cardReaderCountryConfigProvider.provideCountryConfigFor("CA")).thenReturn(supportedCountry)
         whenever(wooStore.getStoreCountryCode(selectedSite.get())).thenReturn("CA")
-        whenever(tapToPayCaUkFeatureFlagEnabled.invoke()).thenReturn(true)
 
         initViewModel()
         (viewModel.viewStateData.getOrAwaitValue()).rows.find {
@@ -2026,7 +2029,6 @@ class PaymentsHubViewModelTest : BaseUnitTest() {
             paymentsHubTapToPayUnavailableHandler,
             clearCardReaderDataAction,
             cardReaderManager,
-            tapToPayCaUkFeatureFlagEnabled,
         )
         viewModel.onViewVisible()
     }

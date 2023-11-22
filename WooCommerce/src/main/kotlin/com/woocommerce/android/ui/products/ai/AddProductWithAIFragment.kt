@@ -1,5 +1,6 @@
 package com.woocommerce.android.ui.products.ai
 
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -13,25 +14,33 @@ import com.woocommerce.android.NavGraphMainDirections
 import com.woocommerce.android.R
 import com.woocommerce.android.extensions.handleDialogResult
 import com.woocommerce.android.extensions.navigateSafely
+import com.woocommerce.android.mediapicker.MediaPickerHelper
+import com.woocommerce.android.mediapicker.MediaPickerHelper.MediaPickerResultHandler
+import com.woocommerce.android.model.Product.Image
 import com.woocommerce.android.ui.base.BaseFragment
 import com.woocommerce.android.ui.base.UIMessageResolver
 import com.woocommerce.android.ui.compose.theme.WooThemeWithBackground
 import com.woocommerce.android.ui.main.AppBarStatus
 import com.woocommerce.android.ui.products.ai.AddProductWithAIViewModel.NavigateToProductDetailScreen
+import com.woocommerce.android.ui.products.ai.PackagePhotoViewModel.PackagePhotoData
 import com.woocommerce.android.ui.products.ai.ProductNameSubViewModel.NavigateToAIProductNameBottomSheet
+import com.woocommerce.android.ui.products.ai.ProductNameSubViewModel.ShowMediaLibrary
 import com.woocommerce.android.viewmodel.MultiLiveEvent.Event.Exit
 import com.woocommerce.android.viewmodel.MultiLiveEvent.Event.ShowSnackbar
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
 @AndroidEntryPoint
-class AddProductWithAIFragment : BaseFragment() {
+class AddProductWithAIFragment : BaseFragment(), MediaPickerResultHandler {
     override val activityAppBarStatus: AppBarStatus
         get() = AppBarStatus.Hidden
 
     private val viewModel: AddProductWithAIViewModel by viewModels()
     @Inject
     lateinit var uiMessageResolver: UIMessageResolver
+
+    @Inject
+    lateinit var mediaPickerHelper: MediaPickerHelper
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         return ComposeView(requireContext()).apply {
@@ -64,6 +73,8 @@ class AddProductWithAIFragment : BaseFragment() {
                     }
                 )
 
+                is ShowMediaLibrary -> mediaPickerHelper.showMediaPicker(event.source)
+
                 is ShowSnackbar -> uiMessageResolver.showSnack(event.message)
 
                 Exit -> findNavController().navigateUp()
@@ -78,6 +89,13 @@ class AddProductWithAIFragment : BaseFragment() {
         ) { productName ->
             viewModel.onProductNameGenerated(productName)
         }
+
+        handleDialogResult<PackagePhotoData>(
+            key = PackagePhotoBottomSheetFragment.KEY_PACKAGE_PHOTO_SCAN_RESULT,
+            entryId = R.id.addProductWithAIFragment
+        ) { data ->
+            viewModel.onProductPackageScanned(data.title, data.description, data.keywords)
+        }
     }
 
     private fun navigateToAIProductName(initialName: String? = null) {
@@ -85,5 +103,24 @@ class AddProductWithAIFragment : BaseFragment() {
             AddProductWithAIFragmentDirections
                 .actionAddProductWithAIFragmentToAIProductNameBottomSheetFragment(initialName)
         findNavController().navigateSafely(action)
+    }
+
+    override fun onDeviceMediaSelected(imageUris: List<Uri>, source: String) {
+        if (imageUris.isNotEmpty()) {
+            onImageSelected(imageUris.first().toString())
+        }
+    }
+
+    override fun onWPMediaSelected(images: List<Image>) {
+        if (images.isNotEmpty()) {
+            onImageSelected(images.first().source)
+        }
+    }
+
+    private fun onImageSelected(mediaUri: String) {
+        findNavController().navigateSafely(
+            directions = AddProductWithAIFragmentDirections
+                .actionAddProductWithAIFragmentToPackagePhotoBottomSheetFragment(mediaUri)
+        )
     }
 }

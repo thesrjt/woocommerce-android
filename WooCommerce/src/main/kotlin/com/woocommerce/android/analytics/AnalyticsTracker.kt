@@ -251,6 +251,7 @@ class AnalyticsTracker private constructor(
         const val KEY_HAS_CUSTOMER_DETAILS = "has_customer_details"
         const val KEY_HAS_FEES = "has_fees"
         const val KEY_HAS_SHIPPING_METHOD = "has_shipping_method"
+        const val KEY_CUSTOM_AMOUNTS_COUNT = "custom_amounts_Count"
         const val VALUE_FLOW_CREATION = "creation"
         const val VALUE_FLOW_EDITING = "editing"
         const val VALUE_FLOW_LIST = "list"
@@ -498,6 +499,7 @@ class AnalyticsTracker private constructor(
         const val KEY_IAP_ELIGIBLE = "is_eligible"
         const val VALUE_LOGIN_EMAIL_ERROR = "login_email_error"
         const val VALUE_SWITCHING_STORE = "switching_store"
+        const val VALUE_STORE_PICKER = "store_picker"
         const val VALUE_PROLOGUE = "prologue"
         const val VALUE_LOGIN = "login"
         const val VALUE_OTHER = "other"
@@ -518,6 +520,7 @@ class AnalyticsTracker private constructor(
         const val KEY_NEW_SITE_ID = "new_site_id"
         const val KEY_INITIAL_DOMAIN = "initial_domain"
         const val KEY_CHALLENGE = "challenges"
+        const val KEY_FEATURES = "features"
         const val VALUE_CHALLENGE_SETTING_UP_ONLINE_STORE = "setting_up_online_store"
         const val VALUE_CHALLENGE_FINDING_CUSTOMERS = "finding_customers"
         const val VALUE_CHALLENGE_MANAGING_INVENTORY = "managing_inventory"
@@ -604,6 +607,12 @@ class AnalyticsTracker private constructor(
 
         const val PRODUCT_TYPES = "product_types"
         const val HAS_ADDONS = "has_addons"
+        const val KEY_HAS_BUNDLE_CONFIGURATION = "has_bundle_configuration"
+        const val VALUE_PRODUCT_CARD = "product_card"
+        const val KEY_CHANGED_FIELD = "changed_field"
+        const val VALUE_CHANGED_FIELD_QUANTITY = "quantity"
+        const val VALUE_CHANGED_FIELD_VARIATION = "variation"
+        const val VALUE_CHANGED_FIELD_OPTIONAL = "optional"
 
         // -- AI product name
         const val KEY_HAS_INPUT_NAME = "has_input_name"
@@ -614,7 +623,15 @@ class AnalyticsTracker private constructor(
         const val KEY_TONE = "tone"
         const val KEY_IS_FIRST_ATTEMPT = "is_first_attempt"
 
+        // -- AI product from package photo
+        const val KEY_SCANNED_TEXT_COUNT = "scanned_text_count"
+        const val KEY_SELECTED_TEXT_COUNT = "selected_text_count"
+        const val VALUE_PRODUCT_CREATION_FROM_PACKAGE_PHOTO = "product_creation_from_package_photo"
+
         const val KEY_IS_AI_CONTENT = "is_ai_content"
+
+        // -- Product subscriptions
+        const val KEY_IS_ELIGIBLE_FOR_SUBSCRIPTIONS = "is_eligible_for_subscriptions"
 
         var sendUsageStats: Boolean = true
             set(value) {

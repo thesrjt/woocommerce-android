@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.withStarted
 import com.google.mlkit.vision.codescanner.GmsBarcodeScanning
 import com.woocommerce.android.AppPrefs
 import com.woocommerce.android.AppPrefsWrapper
@@ -66,6 +67,7 @@ import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasAndroidInjector
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.launch
 import kotlinx.parcelize.Parcelize
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode.MAIN
@@ -409,9 +411,11 @@ class LoginActivity :
             .commitAllowingStateLoss()
     }
 
-    private fun showPrologueFragment() = lifecycleScope.launchWhenStarted {
-        val prologueFragment = getPrologueFragment() ?: LoginPrologueFragment()
-        changeFragment(prologueFragment, true, LoginPrologueFragment.TAG)
+    private fun showPrologueFragment() = lifecycleScope.launch {
+        withStarted { // suspend until the fragment is started
+            val prologueFragment = getPrologueFragment() ?: LoginPrologueFragment()
+            changeFragment(prologueFragment, true, LoginPrologueFragment.TAG)
+        }
     }
 
     override fun loginViaSocialAccount(
@@ -489,6 +493,23 @@ class LoginActivity :
     override fun needs2faSocialConnect(email: String?, password: String?, idToken: String?, service: String?) {
         loginAnalyticsListener.trackLoginSocial2faNeeded()
         val login2FaFragment = Login2FaFragment.newInstanceSocialConnect(email, password, idToken, service)
+        changeFragment(login2FaFragment, true, Login2FaFragment.TAG)
+    }
+
+    override fun needs2fa(
+        email: String?,
+        password: String?,
+        userId: String?,
+        webauthnNonce: String?,
+        nonceAuthenticator: String?,
+        nonceBackup: String?,
+        noncePush: String?,
+        supportedAuthTypes: MutableList<String>?
+    ) {
+        val login2FaFragment = Login2FaFragment.newInstance(
+            email, password, userId,
+            webauthnNonce, nonceAuthenticator, nonceBackup, noncePush, supportedAuthTypes
+        )
         changeFragment(login2FaFragment, true, Login2FaFragment.TAG)
     }
 
@@ -870,8 +891,9 @@ class LoginActivity :
         showMainActivityAndFinish()
     }
 
-    override fun onLoginWithEmail(email: String?) {
+    override fun onExistingEmail(email: String?) {
         unifiedLoginTracker.setFlow(Flow.WORDPRESS_COM.value)
+        appPrefsWrapper.setStoreCreationSource(AnalyticsTracker.VALUE_LOGIN)
         changeFragment(
             fragment = WooLoginEmailFragment.newInstance(email) as Fragment,
             shouldAddToBackStack = true,
