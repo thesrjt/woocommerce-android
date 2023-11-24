@@ -74,14 +74,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/discovery_error_tip_message">
 
-                <com.woocommerce.android.widgets.WCSingleOptionTextView
-                    android:id="@+id/discovery_wordpress_option_view"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:drawablePadding="@dimen/major_150"
-                    android:drawableStart="@drawable/ic_wordpress"
-                    android:text="@string/login_with_wordpress"/>
-
                 <View
                     android:id="@+id/view1"
                     style="@style/Woo.Divider"

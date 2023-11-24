@@ -65,16 +65,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/completion_help_guide" />
 
-        <ImageView
-            android:id="@+id/crowdsignal_icon"
-            android:layout_width="@dimen/image_major_150"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/major_150"
-            android:src="@drawable/img_crowdsignal_attribution"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_back_to_store" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

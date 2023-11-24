@@ -98,9 +98,7 @@
 
         </com.woocommerce.android.widgets.ScrollChildSwipeRefreshLayout>
 
-        <include
-            android:id="@+id/jetpack_benefits_banner"
-            layout="@layout/view_jetpack_benefits_bottom_banner" />
+
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <ScrollView
