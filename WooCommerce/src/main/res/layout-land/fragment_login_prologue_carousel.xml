@@ -43,7 +43,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/image_prologue"
         app:layout_constraintWidth_percent="0.5"
-        tools:background="@color/blue_dark" />
+        tools:background="@drawable/img_empty_orders_all_fulfilled" />
 
     <com.woocommerce.android.widgets.WCViewPagerIndicator
         android:id="@+id/viewPagerIndicator"
